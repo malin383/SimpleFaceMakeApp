@@ -29,4 +29,8 @@ public class Face {
 
         canvas.drawCircle(canvas.getWidth()/2, canvas.getHeight()/2, 50, paint);
     }
+
+    protected void setHairStyle(int selection){
+        hairStyle = selection;
+    }
 }
