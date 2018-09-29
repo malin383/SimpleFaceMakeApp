@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">FaceMaker_mali21</string>
+    <string name="featureSelect">FaceMaker_mali21</string>
+    <string-array name="hair_styles">
+        <item>Square</item>
+        <item>Afro</item>
+        <item>Bowl</item>
+        <item>Bald</item>
+        <item>Normal</item>
+    </string-array>
+</resources>
