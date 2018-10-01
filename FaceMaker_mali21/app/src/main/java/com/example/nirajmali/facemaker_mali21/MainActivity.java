@@ -98,6 +98,7 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
+    //Adjust color values based on each SeekBar's value and which one is changing
     private class seekBarListener implements SeekBar.OnSeekBarChangeListener {
 
         /**
@@ -109,7 +110,6 @@ public class MainActivity extends AppCompatActivity {
          android/widget/SeekBar.OnSeekBarChangeListener
          Solution: Copied methods and class; changed functionality
          */
-
         public void onProgressChanged(SeekBar seek, int progress, boolean fromUser) {
             if(hairRad.isChecked()){
                 if(seek.equals(findViewById(R.id.redSlider))){
@@ -182,6 +182,7 @@ public class MainActivity extends AppCompatActivity {
         }
     }
 
+    //Listener for Random button and when clicked, generates random face
     public class ButtonListener extends Activity implements View.OnClickListener{
         @Override
         public void onClick(View v) {
