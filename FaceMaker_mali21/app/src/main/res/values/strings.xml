@@ -4,8 +4,7 @@
     <string-array name="hair_styles">
         <item>Square</item>
         <item>Afro</item>
-        <item>Bowl</item>
         <item>Bald</item>
-        <item>Normal</item>
+        <item>Hat</item>
     </string-array>
 </resources>
