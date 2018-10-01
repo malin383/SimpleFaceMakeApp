@@ -1,5 +1,14 @@
 package com.example.nirajmali.facemaker_mali21;
 
+/**
+ * @author: Niraj Mali
+ *
+ * Version: 9/30/2018
+ *
+ * FaceView: SurfaceView implementation to draw and
+ * display face onto app
+ */
+
 import android.content.Context;
 import android.graphics.Canvas;
 import android.util.AttributeSet;

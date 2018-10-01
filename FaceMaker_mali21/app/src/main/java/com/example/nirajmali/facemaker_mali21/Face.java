@@ -1,5 +1,14 @@
 package com.example.nirajmali.facemaker_mali21;
 
+/**
+ * @author: Niraj Mali
+ *
+ * Version: 9/30/2018
+ *
+ * Face: Creates qualities for face and has draw
+ * methods to be called to draw the face
+ */
+
 import android.graphics.Canvas;
 import android.graphics.Color;
 import android.graphics.Paint;
@@ -9,15 +18,23 @@ import android.view.SurfaceView;
 import java.util.Random;
 
 public class Face{
+
+    //Variables to determine features of face
     int skinColor;
     int eyeColor;
     int hairColor;
     int hairStyle;
+
+    //Implementing paint for color and Random for random facial features
     Paint paint;
     Random random;
 
-    public Face(){ randomize(); }
+    //Constructor: Initially, it just needs a random face so we call randomize() method
+    public Face(){
+        randomize();
+    }
 
+    //Creates a random face
     protected void randomize() {
     /**
      External Citation
@@ -36,6 +53,7 @@ public class Face{
         this.hairStyle = (int) random.nextInt(3 + 1 - 0) + 0;
     }
 
+    //Set hair style
     protected void setHairStyle(int selection){
         hairStyle = selection;
     }
@@ -72,6 +90,7 @@ public class Face{
         return Color.blue(colorVal);
     }
 
+    //Main draw method
     protected void onDraw(Canvas canvas){
         paint = new Paint();
 

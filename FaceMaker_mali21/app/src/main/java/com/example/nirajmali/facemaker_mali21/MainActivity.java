@@ -1,5 +1,14 @@
 package com.example.nirajmali.facemaker_mali21;
 
+/**
+ * @author: Niraj Mali
+ *
+ * Version: 9/30/2018
+ *
+ * MainActivity.java: Creates instances of objects to
+ * reflect changes onto app
+ */
+
 import android.app.Activity;
 import android.graphics.Canvas;
 import android.support.v7.app.AppCompatActivity;
